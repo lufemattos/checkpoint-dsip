@@ -1,5 +1,3 @@
-data.js
-
 window.REPORT = {
   lastUpdate: "Fev/2026",
 
@@ -34,20 +32,19 @@ window.REPORT = {
   ],
 
   timeline: [
-  { side: "top",    date: "20/Jan", iso:"2026-01-20", color: "#E97132", boxType: "dark",    title: "X-MPU",        subtitle: "20-22 Jan",         tooltip: "Reunião de Merch para fazer o download da coleção" },
-  { side: "bottom", date: "30/Jan", iso:"2026-01-30", color: "#60A5FA", boxType: "light",   title: "Abertura",     subtitle: "Portal",            tooltip: "Primeira abertura de portal" },
-  { side: "top",    date: "16/Fev", iso:"2026-02-16", color: "#22C55E", boxType: "light",   title: "Carnaval",     subtitle: "16-18 Fev",         tooltip: "Feríado nacional" },
-  { side: "bottom", date: "02/Mar", iso:"2026-03-02", color: "#FACC15", boxType: "light",   title: "Fechamento",   subtitle: "Portal (ex-Distr)", tooltip: "Finalização de pedidos desconsiderando Distribuidores" },
-  { side: "top",    date: "03/Mar", iso:"2026-03-03", color: "#FB923C", boxType: "light",   title: "Bookings",     subtitle: "Prévia (MPO)",      tooltip: "MPO gera os bookings prévio com o que tem no SAP" },
-  { side: "bottom", date: "04/Mar", iso:"2026-03-04", color: "#F472B6", boxType: "light",   title: "Booking",      subtitle: "Review (Supply)",   tooltip: "Supply analisa, prepara e disponibiliza a base para Merch" },
-  { side: "top",    date: "05/Mar", iso:"2026-03-05", color: "#A855F7", boxType: "light",   title: "Fechamento",   subtitle: "Final",             tooltip: "Encerramento de colocação de pedidos da coleção" },
-  { side: "bottom", date: "09/Mar", iso:"2026-03-09", color: "#2DD4BF", boxType: "light",   title: "Bookings",     subtitle: "Finais (MPO)",      tooltip: "MPO gera os bookings finais, que serão a base de compra oficial" },
-  { side: "top",    date: "12/Mar", iso:"2026-03-12", color: "#F87171", boxType: "light",   title: "Alinhamento",  subtitle: "Liderança",         tooltip: "Reunião de alinhamento com a liderança para fins de auditoria e transparência" },
-  { side: "bottom", date: "18/Mar", iso:"2026-03-18", color: "#EAB308", boxType: "light",   title: "POs Deadline", subtitle: "(Upload SAP)",      tooltip: "Envio via EDI dos pedidos para a Nike" }
-],
+    { side: "top",    date: "20/Jan", iso:"2026-01-20", color: "#E97132", boxType: "dark",    title: "X-MPU",        subtitle: "20-22 Jan",         tooltip: "Reunião de Merch para fazer o download da coleção" },
+    { side: "bottom", date: "30/Jan", iso:"2026-01-30", color: "#60A5FA", boxType: "light",   title: "Abertura",     subtitle: "Portal",            tooltip: "Primeira abertura de portal" },
+    { side: "top",    date: "16/Fev", iso:"2026-02-16", color: "#22C55E", boxType: "light",   title: "Carnaval",     subtitle: "16-18 Fev",         tooltip: "Feriado nacional" },
+    { side: "bottom", date: "02/Mar", iso:"2026-03-02", color: "#FACC15", boxType: "light",   title: "Fechamento",   subtitle: "Portal (ex-Distr)", tooltip: "Finalização de pedidos desconsiderando Distribuidores" },
+    { side: "top",    date: "03/Mar", iso:"2026-03-03", color: "#FB923C", boxType: "light",   title: "Bookings",     subtitle: "Prévia (MPO)",      tooltip: "MPO gera os bookings prévios com o que tem no SAP" },
+    { side: "bottom", date: "04/Mar", iso:"2026-03-04", color: "#F472B6", boxType: "light",   title: "Booking",      subtitle: "Review (Supply)",   tooltip: "Supply analisa, prepara e disponibiliza a base para Merch" },
+    { side: "top",    date: "05/Mar", iso:"2026-03-05", color: "#A855F7", boxType: "light",   title: "Fechamento",   subtitle: "Final",             tooltip: "Encerramento de colocação de pedidos da coleção" },
+    { side: "bottom", date: "09/Mar", iso:"2026-03-09", color: "#2DD4BF", boxType: "light",   title: "Bookings",     subtitle: "Finais (MPO)",      tooltip: "MPO gera os bookings finais, que serão a base de compra oficial" },
+    { side: "top",    date: "12/Mar", iso:"2026-03-12", color: "#F87171", boxType: "light",   title: "Alinhamento",  subtitle: "Liderança",         tooltip: "Reunião de alinhamento com a liderança para fins de auditoria e transparência" },
+    { side: "bottom", date: "18/Mar", iso:"2026-03-18", color: "#EAB308", boxType: "light",   title: "POs Deadline", subtitle: "(Upload SAP)",      tooltip: "Envio via EDI dos pedidos para a Nike" }
+  ],
 
   datesGates: [
-    // CARD 1: FEV.02 (left)
     {
       side: "left",
       label: "FEV.02",
@@ -68,8 +65,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 2: FEV.09 (right)
     {
       side: "right",
       label: "FEV.09",
@@ -90,8 +85,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 3: FEV.16 (left)
     {
       side: "left",
       label: "FEV.16",
@@ -125,8 +118,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 4: FEV.23 (right)
     {
       side: "right",
       label: "FEV.23",
@@ -148,8 +139,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 5: MAR.02 (left)
     {
       side: "left",
       label: "MAR.02",
@@ -173,8 +162,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 6: MAR.09 (right)
     {
       side: "right",
       label: "MAR.09",
@@ -203,8 +190,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 7: MAR.16 (left)
     {
       side: "left",
       label: "MAR.16",
@@ -232,8 +217,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 8: MAR.23 (right)
     {
       side: "right",
       label: "MAR.23",
@@ -247,8 +230,6 @@ window.REPORT = {
         }
       ]
     },
-
-    // CARD 9: MAR.30 (left)
     {
       side: "left",
       label: "MAR.30",
